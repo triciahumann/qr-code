@@ -114,35 +114,88 @@ The designs were created to the following widths:
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700 */
 
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
   .container {
-    background: pink;
+    background: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     align-items: center;
+    padding: 60px 0;
   }
 
-  .content-wrapper {
-    width: 80%;
-    background: white;
-    margin: 60px 0;
+  .description {
+    background-color: white;
+    width: 85%;
+    border-radius: 20px;
   }
 
-  .qr-code-content {
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  /* qr code styles */
+  figure {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  figure img {
+    width: 85%;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  /* instructions/details */
+  aside {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
   }
 
-  .qr-code {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-
-  .qr-code img {
+  aside .content-wrapper {
     width: 90%;
   }
 
+  .instructions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .instructions h1 {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .instructions p {
+    margin: 0;
+    width: 85%;
+    text-align: center;
+  }
+
+  /* footer styles */
+  .credit {
+    padding-top: 20px;
+  }
+  footer p {
+    margin: 0;
+  }
+  
 
 
 
