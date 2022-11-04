@@ -286,8 +286,21 @@ The designs were created to the following widths:
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+   @media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+
+    /* General tablet styles */
+    body {
+      background: purple;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 60%;
+    }
+
 }
 
 @media print,
