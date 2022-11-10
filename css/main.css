@@ -301,7 +301,7 @@ The designs were created to the following widths:
 
     /* General tablet styles */
     body {
-      background: purple;
+      background: black;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -315,8 +315,8 @@ The designs were created to the following widths:
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
-  body {
-    
+  .container {
+    height: 60%;
   }
 }
 
