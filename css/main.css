@@ -114,9 +114,12 @@ The designs were created to the following widths:
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700 */
 
+
   body {
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
   }
+
   .container {
     background: hsl(212, 45%, 89%);
     display: flex;
@@ -308,6 +311,13 @@ The designs were created to the following widths:
       width: 60%;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+  body {
+    
+  }
 }
 
 @media print,
