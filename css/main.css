@@ -320,7 +320,7 @@ The designs were created to the following widths:
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
   .container {
-    height: 60%;
+    height: auto
   }
 }
 
