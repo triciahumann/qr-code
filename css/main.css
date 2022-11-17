@@ -114,10 +114,14 @@ The designs were created to the following widths:
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700 */
 
+  html {
+    height: 100%;
+  }
 
   body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    height: 100%;
   }
 
   .container {
