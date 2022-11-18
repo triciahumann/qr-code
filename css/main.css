@@ -328,7 +328,11 @@ The designs were created to the following widths:
     padding-top: 15px;
   }
 
-  
+  figure img {
+    width: 90%;
+  }
+
+
 }
 
 @media print,
