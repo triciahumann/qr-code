@@ -122,10 +122,11 @@ The designs were created to the following widths:
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     height: 100%;
+    background: hsl(212, 45%, 89%);
   }
 
   .container {
-    background: hsl(212, 45%, 89%);
+    /* background: hsl(212, 45%, 89%); */
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
